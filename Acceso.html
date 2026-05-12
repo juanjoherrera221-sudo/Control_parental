@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    
+    <title>Modo Admin</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src = "acceso.js"></script>
+</head>
+
+<body class="admin-body">
+
+    <h2 class="admin-title">
+        Modo Admin :D
+    </h2>
+
+    <br><br>
+
+    
+    <div class="admin-card">
+
+        <h3>
+            Activar control parental
+        </h3>
+
+        <button class="control-btn active" onclick = "alternate1()" id = "button1">
+
+            DESACTIVADO
+
+        </button>
+
+    </div>
+
+    <br><br>
+
+    <!-- BLOQUEAR APPS -->
+    <div class="admin-card">
+
+        <h3>
+            Bloquear aplicaciones
+        </h3>
+
+        <button class="control-btn off" onclick = "alternate2()" id = "button2">
+
+            DESACTIVADO
+
+        </button>
+
+    </div>
+
+    <br><br>
+
+    <!-- FILTRO WEB -->
+    <div class="admin-card">
+
+        <h3>
+            Filtro web seguro
+        </h3>
+
+        <button class="control-btn active" onclick = "alternate3()" id = "button3">
+
+            DESACTIVADO
+
+        </button>
+
+    </div>
+
+    <br><br>
+
+    <!-- TIEMPO DE USO -->
+    <div class="admin-card">
+
+        <h3>
+            Límite de tiempo
+        </h3>
+
+        <button class="control-btn off" onclick = "alternate4()" id = "button4">
+
+            DESACTIVADO
+
+        </button>
+
+    </div>
+    <br><br>
+    <br><br>
+<button onclick="history.back()">
+    Volver
+</button>
+</body>
+
+</html>
